@@ -1,19 +1,20 @@
 /* checkout-step */
-.container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(216, 216, 216);
-}
-
+.checkout-container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
 .checkout-step {
     display: inline;
     padding: 5px 10px;
-    margin: 0 auto;
     list-style: none;
-    background-color: var(--clr-neutral);
 }
-
+.checkout-step ul {
+    width:90%;
+    margin:auto;
+    align-items: center;
+}
 .checkout-step li {
     display: inline;
 }
@@ -21,7 +22,7 @@
 .checkout-step li+li:before {
     padding: 8px;
     color: var(--clr-primary-green);
-    content: "|\00a0";
+    content: ">\00a0";
 }
 
 .checkout-step li a {

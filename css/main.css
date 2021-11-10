@@ -107,8 +107,8 @@ ul {
 
 /* logo */
 .logo {
-    height: 110px;
-    width: 80px;
+    height: 80px;
+    width: 50px;
     display: block;
     align-items: center;
     margin: auto;
@@ -120,45 +120,26 @@ ul {
     display: block;
     position: absolute;
     margin: 10px 10px;
-
 }
-
 /* heading for main CTA */
 .title {
     color: var(--clr-neutral);
     font-family: "Simplifica";
-}
-
-/* style for main cta button  */
-.cta-btn {
-    background-color: var(--clr-neutral);
-    color: var(--clr-primary-green);
-    padding: 15px 40px;
-    font-size: 28px;
-    align-items: center;
-    text-align: center;
-    font-weight: 800;
-    font-variant: small-caps;
-    cursor: pointer;
-    border: 1px solid var(--clr-primary-green);
-    border-radius: 30px;
-
+    font-size: 36px;
 }
 
 /* checkbox hack this needed to be updated later */
-nav.hamburger {
-    display: none;
-}
 
 input#hamburger {
     display: none;
 }
-label[for=hamburger] { 
-    font-size: 2em;
-    color:#1EB374
-  }
+
 input#hamburger:checked~nav.hamburger {
     display: block;
+}
+
+nav.hamburger {
+    display: none;
 }
 
 nav.hamburger ul {
@@ -216,7 +197,6 @@ nav.hamburger li a:hover {
 
 .search-icon {
     margin-right: 40px;
-
 }
 
 .slides {
@@ -225,14 +205,12 @@ nav.hamburger li a:hover {
     margin: 1px;
     z-index: 1;
     /*-1 will not make the btn work */
-
 }
 
 .main-cta {
     position: absolute;
-    left: 60%;
+    left: 70%;
     top: 400px;
-
 }
 
 /* breadcrumb */
@@ -272,7 +250,6 @@ nav.hamburger li a:hover {
     color: var(--clr-neutral);
     padding: 15px 20px;
     border: 1px solid;
-    border-radius: 30px;
     text-align: center;
     text-decoration: none;
     margin: 12px 12px;
@@ -283,30 +260,29 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.primary-btn:hover {
+.primary-btn:hover,:focus {
     background-color: var(--clr-neutral);
     color: var(--clr-primary-green);
 }
 
 .secondary-btn {
     border: 1px solid;
-    border-color: var(--clr-primary-green);
-    color: var(--clr-primary-green);
-    background-color: var(--clr-neutral);
+    color: var(--clr-neutral);
+    background-color: var(--clr-primary-blue);
     padding: 15px 50px;
     text-align: center;
     text-decoration: none;
     margin: 12px 12px;
     font-family: var(--ff-main-font);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     font-variant: small-caps;
     cursor: pointer;
 }
 
-.secondary-btn:hover {
-    background-color: var(--clr-primary-green);
-    color: var(--clr-neutral);
+.secondary-btn:hover,:focus {
+    background-color: var(--clr-neutral);
+    color: var(--clr-primary-blue);
 }
 
 .form-btn {
@@ -411,7 +387,6 @@ nav.hamburger li a:hover {
     display: flex;
     padding: 20px 20px;
     background-color: var(--clr-light-bgcolor);
-    height: 100px;
     margin-block: 50px;
     cursor: pointer;
 }
@@ -576,7 +551,7 @@ footer {
     background-color: var(--clr-dark);
     display: flex;
     position: relative;
-    align-content: center;
+   
 }
 
 .footer-backtotop {
