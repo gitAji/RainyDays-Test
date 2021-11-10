@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Rainy-Days"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Rainy-Days"
+	}
+}

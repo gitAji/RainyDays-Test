@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'>
+    <link href='//fonts.googleapis.com/css?family=Avenir:thin,extra-light,light,100,200,300,400,500,600,700,800'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Your Bag-The Rainy Days</title>
+</head>
+
+<body>
+    <!-- navbar section -->
+    <div class="navbar" id="top">
+        <div class="logo">
+            <img src="images/Logo.png" alt="logo" height="60px" width="100px">
+        </div>
+        <!-- this menu will be updated later using JS  -->
+        <div class="menu">
+            <label for="hamburger">
+                <i class="fas fa-bars fa-2x"></i>
+            </label>
+            <input type="checkbox" id="hamburger">
+            <nav class="hamburger">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end of nav -->
+        <!-- top bar icons -->
+        <div class="side-icons">
+            <div class="user-icon">
+                <a href="login.html"><i class="fas fa-user fa-1x"></i></a>
+            </div>
+            <div class="shopping-bag">
+                <a href="bag.html"> <i class="fas fa-shopping-bag fa-1x"></i></a>
+            </div>
+            <div class="search-icon">
+                <a href="search.html"> <i class="fas fa-search fa-1x"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of navbar -->
+    <!-- breadcrumb -->
+    <div class="breadcrumb">
+        <ul>
+            <li><a href="index.html">Home</li></a>
+            <li class="b-active">Product View</li>
+        </ul>
+    </div>
+    <!-- end of breadcrumb -->
+    <!-- product bag section -->
+    <div class="main-container">
+        <div class="left-col">
+            <img src="images/products/m1.jpeg" alt="nike red">
+        </div>
+        <div class="right-col">
+            <div class="product-description">
+                <h2>Nike bubble jacket mens</h2>
+                <h3>Price:3000 kr</h3>
+                <h6>Product Details</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reiciendis, consequuntur
+                    veritatis sit laudantium harum fugiat quisquam omnis officia molestiae et ipsa illo nulla
+                    dignissimos aliquam a blanditiis id ad.</p> <a href=">#">Show more</a>
+                <hr>
+                <form action="" method="post">
+                    <label for="category"> Size:</label>
+                    <select id="size" name="size">
+                        <option value="size">Size</option>
+                        <option value="Extra small">Extra small</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra large">Extra large</option>
+                    </select>
+                    <label for="category">&nbsp;&nbsp;&nbsp; Color:</label>
+                    <select id="color" name="color">
+                        <option value="color">Color</option>
+                        <option value="Extra small">Red</option>
+                        <option value="Small">Green</option>
+                        <option value="Medium">Blue</option>
+                        <option value="Large">Black</option>
+                        <option value="Extra large">Extra large</option>
+                    </select>
+                </form>
+
+                <a href="checkout-opt.html">
+                    <div class="buy-btn">Buy</div>
+                </a>
+                <a href="checkout-opt.html">
+                    <div class="addtobag-btn">Add to bag</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of bag section -->
+
+    <!-- footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/Logo.png" alt="" srcset="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti, aliquam accusantium
+                labore, quam quae ex fuga natus repellendus magni amet vero itaque, rerum at pariatur autem
+                nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consectetur accusantium
+                doloribus nulla placeat? Necessitatibus at officiis fugiat in aliquid id sunt, consequuntur
+                vitae ipsum, voluptate, quia odit perferendis numquam?</p>
+            <hr>
+            <div class="footer-col">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns & Refund</a></li>
+                    <li><a href="#">Order status</a></li>
+                    <li><a href="#">Payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Others</h3>
+                <ul>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">The brand</a></li>
+                    <li><a href="#">Covid-19 </a></li>
+                </ul>
+            </div>
+            <div class="footer-col last-child">
+                <h3>Follow us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-brand">
+            <div class="grayscale"><img src="images/visa.jpeg" alt="visa" height="42px" width="120px"></div>
+            <div class="grayscale"><img src="images/paypal.png" alt="paypal" height="35px" width="120px"></div>
+            <div class="grayscale"><img src="images/klarna.png" alt="klarna" height="25px" width="120px"></div>
+            <div class="grayscale"><img src="images/posten.png" alt="posten" height="35px" width="125px"></div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-p">&copy;Copyright 2021 All rights Reserved.</div>
+            <div class="footer-backtotop">
+                <a href="#top"> <i class="fas fa-caret-square-up fa-2x"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- end of footer section -->
+</body>
+
+</html>

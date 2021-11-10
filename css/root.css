@@ -1,0 +1,14 @@
+/* These can be inc in the main */
+:root {
+    --clr-primary-orange: #FF6111;
+    --clr-primary-blue: #11AFFF;
+    --clr-primary-green: #1EB374;
+    --clr-dark: #000;
+    --clr-light: rgb(80, 80, 80);
+    --clr-neutral: #fff;
+    --clr-light-bgcolor: #f6d0ac;
+    --clr-dark-bgcolor: #ff9c5a;
+
+    --ff-main-font: 'Montserrat';
+    --ff-sub-font: 'Avenir';
+}

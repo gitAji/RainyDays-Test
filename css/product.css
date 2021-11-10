@@ -1,0 +1,233 @@
+/* styles for products,this can be included in the main css */
+/* style for category */
+.main-container {
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 12px;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+.category {
+
+    width: 33%;
+    margin: :10px;
+}
+
+.cat-img {
+    width: 100%;
+    overflow: hidden;
+    margin-block: 20px;
+    opacity: 90%;
+
+}
+
+.cat-img>img {
+
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cat-img>img:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.cat-btn {
+    border: 1px solid;
+    border-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    background-color: var(--clr-neutral);
+    padding: 15px 50px;
+    margin: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--ff-main-font);
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.cat-btn:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
+
+}
+
+/* style for product note: this style maybe repeating  */
+.product {
+    flex-direction: column;
+    width: 24%;
+
+
+
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 10px;
+    opacity: 90%;
+
+
+}
+
+.product-img>img {
+    position: relative;
+    height: 450px;
+    width: 100%;
+   
+    border: 2px solid;
+    object-fit: cover;
+}
+
+.product-img>img:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.product-description {
+    display: inline;
+}
+
+.container-guest {
+    padding: 12px 12px;
+    margin: 12px 12px;
+    border: 1px solid var(--clr-dark-bgcolor);
+}
+
+
+.buy-btn {
+    border: 1px solid;
+    border-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    background-color: var(--clr-neutral);
+    padding: 15px 25px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--ff-main-font);
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
+}
+
+.addtobag-btn {
+    color: var(--clr-primary-blue);
+    background-color: var(--clr-neutral);
+    border: 1px solid;
+    border-color: var(--clr-primary-blue);
+    padding: 15px 25px;
+    margin-block: 12px;
+    font-family: var(--ff-main-font);
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addtobag-btn:hover {
+    background-color: var(--clr-primary-blue);
+    color: var(--clr-neutral);
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px 15px;
+}
+
+.load-more {
+    padding: 30px 500px;
+    align-items: center;
+    margin: 10px auto;
+}
+
+/* style for product-view page */
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    width: 50%;
+
+
+}
+
+.left-col img {
+    width: 60%;
+    height: 90%;
+    margin: 40px 40px;
+    object-fit: cover;
+}
+
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+/* style for checkout success */
+.checkout-success {
+    margin:40px auto;
+    padding:70px 20px;
+    align-items: center;
+    background-color:var(--clr-light-bgcolor);
+}
+/* media queries */
+@media(max-width: 574px) {
+    .cat-img>img {
+
+        height: auto;
+
+    }
+
+    .category {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 500%;
+        margin: : auto;
+    }
+
+    .cat-btn {
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        padding: 15px 15px;
+    }
+
+    .product {
+        flex-basis: auto;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .product-img>img {
+        width: 80%;
+        height: 70%;
+    }
+
+    .filter {
+        flex-direction: column;
+        width: fit-content;
+
+    }
+}

@@ -1,0 +1,91 @@
+@import url("root.css");
+
+.root {
+    --clr-primary-orange: #FF6111;
+    --clr-primary-blue: #11AFFF;
+    --clr-primary-green: #1EB374;
+    --clr-dark: #000;
+    --clr-light: rgb(80, 80, 80);
+    --clr-neutral: #fff;
+    --clr-light-bgcolor: #f6d0ac;
+    --clr-dark-bgcolor: #ff9c5a;
+
+    --ff-main-font: 'Montserrat';
+    --ff-sub-font: 'Avenir';
+}
+
+body {
+    background-color: var(--clr-neutral);
+}
+
+.form {
+    align-items: center;
+    margin: auto;
+    margin-block: 15px;
+    padding: 5px 25px;
+    width: 50%;
+    background-color: var(--clr-neutral);
+    border: 2px solid var(--clr-light-bgcolor);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.signin {
+    display: inline-block;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+input[type=email] {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+input[type=password] {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+label {
+    padding-bottom: 5px;
+    color: --clr-dark font-weight: bold;
+
+}
+
+a {
+    color: var(--clr-primary-blue);
+}
+
+a:hover {
+    color: var(--clr-primary-green);
+}
+
+@media(max-width: 574px) {
+    .form {
+        width: 90%;
+    }
+
+    .form-btn {
+        font-size: 20px;
+        border: 1px solid;
+        border-radius: 0px;
+        padding: 10px 10px;
+    }
+
+}
